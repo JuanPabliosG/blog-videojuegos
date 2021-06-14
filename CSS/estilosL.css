@@ -120,66 +120,41 @@ nav > a:hover{
     box-shadow: 0 0 15px rgba(0, 0, 0, .5);
 }
 
-/*GALERIAS*/
+/* los mas vistos */
 
-.portafolio{
-    background: #f2f2f2;
-}
-
-.galeria-port{
+.cards{
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap;
 }
 
-.imagen-port{
-    width: 30%;
-    margin-bottom: 10px;
+.cards .card{
+    background: #19588b;
+    display: flex;
+    width: 80%;
+    height: 230px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, .5);
+}
+
+.cards .card img{
+    width: 200px;
     height: 200px;
-    overflow: hidden;
-    position: relative;
-    cursor: pointer;
-    box-shadow: 0 0 8px rgba(0, 0, 0, .5);
-}
-
-.imagen-port > img{
-    width: 100%;
-    height: 100%;
     object-fit: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
     display: block;
 }
 
-.hover-galeria{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    transform: scale(0);
-    background: hsla(221, 91%, 27%, 0.651);
-    transition: transform .5s;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.hover-galeria img{
-    width: 250px;
-}
-
-.hover-galeria a{
+.cards .card > .contenido-texto-card{
+    width: 60%;
     color: #fff;
+}
+
+.cards .card > .contenido-texto-card p{
     font-weight: 300;
-    text-decoration: none;
-    margin-right: 10px;
-}
-
-.hover-galeria > p:hover{
-    text-decoration: underline;
-}
-
-.imagen-port:hover .hover-galeria{
-    transform: scale(1);
+    padding-top: 5px;
 }
 
 /* footer */

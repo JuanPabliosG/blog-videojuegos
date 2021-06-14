@@ -30,7 +30,7 @@ header{
     height: 600px;
     background: #4ebcbc;  
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, hsla(216, 94%, 36%, 0.678), hsla(177, 100%, 50%, 0.678)), url(../games/GodOfWar.jpg);
+    background: -webkit-linear-gradient(to right, hsla(216, 93%, 36%, 0.678), hsla(177, 100%, 50%, 0.678)), url(../games/GodOfWar.jpg);
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, hsla(216, 94%, 36%, 0.678), hsla(177, 100%, 50%, 0.678)), url(../games/GodOfWar.jpg);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
